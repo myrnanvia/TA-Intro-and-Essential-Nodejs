@@ -1,0 +1,15 @@
+1. Node.js adalah salah satu jenis platform atau framework dari JavaScript yang dapat berjalan di sisi server untuk kepentingan pembuatan aplikasi berbasis web. 
+Eksekusi kode JavaScript bergantung pada engine yang ada pada browser. Oleh karena itu, Ia disematkan pada kode HTML. Inilah alasan mengapa JavaScript disebut bahasa pemrograman yang bekerja pada sisi client.
+Node.js, di sisi lain, merupakan platform untuk menjalankan kode JavaScript pada sisi server. Ia bertugas untuk mengeksekusi kode JavaScript sebelum halaman website ditampilkan di browser. 
+
+2. Node.js memiliki dua komponen utama, yaitu engine JavaScript V8 Google dan Libuv Library.
+Engine V8 milik Google adalah sebuah compiler JavaScript yang dibuat menggunakan bahasa pemrograman C++. Dengan komponen ini, input berupa kode JavaScript dapat di-compile menjadi kode dalam tingkat assembly. 
+Library C++ ini bertugas mengelola operasi asynchronous I/O (input/output) di Node.js dan main event loop. Di dalamnya juga terdapat thread pool reserve yang menangani thread setiap operasi I/O.
+Design Pattern.
+
+3. Build-in Module = Nodejs memiliki banyak modul bawaan (build-in) yang bisa kita manfaatkan dalam membuat aplikasi. Modul-modul ini tidak perlu kita install dengan NPM, karena suda disediakan sejak kita install Nodejs.
+External Module = modul yang sudah di sediakan oleh pengguna lain. Cara menggunakanya sama seperti menggunakan built in modul atau core module. penggunaannya harus menginstallnya terlebih dahulu agar module ini bisa di gunakan, yaitu dengan menggunakan NPM.
+Custom Module = Lokal modul adalah modul yang bisa anda buat . Module ini dibuat secara lokal di aplikasi Node.js Anda. Modul-modul ini bisa berupa fungsi yang dibutuhkan oleh aplikasi yang akan anda buat. dan lokasi dari file ini adalah file dan folder terpisah.
+
+4. contoh built in module: http, url, querystring
+contoh external module: Nodemon.
